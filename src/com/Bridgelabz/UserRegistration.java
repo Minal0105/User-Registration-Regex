@@ -2,10 +2,8 @@ package com.Bridgelabz;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-
 public class UserRegistration {
     final String FIRST_NAME = "^[A-Z][a-z]{3,}";
-
     public void firstName(String name) {
 
         Pattern pattern = Pattern.compile(FIRST_NAME);
